@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+keras
+PIL
+trimesh
+rtree
+dijkstar
+matplotlib
