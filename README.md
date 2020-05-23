@@ -6,16 +6,16 @@ The goal being saving both material costs, time of design and avoid the inherent
 
 ## Requirements
 
-  - Python 3.x
-  - numpy
-  - scipy
-  - scikit-learn
-  - keras
-  - PIL
-  - trimesh
-  - rtree
-  - dijkstar
-  - matplotlib
+      - Python 3.x
+      - numpy
+      - scipy
+      - scikit-learn
+      - keras
+      - PIL
+      - trimesh
+      - rtree
+      - dijkstar
+      - matplotlib
 
 
 # Idea
@@ -64,10 +64,11 @@ DA.dental_cnn.load(x_train, y_train, id_=0, size=52, show=True)
 ## TODO
 
 The project is still under heavy development, the following tasks are the most pressing to solve:
-    - Replace the *rtree* and *djikstra* dependencies for more stable and mainstream alternatives.
-    - Implement the *remesh* method in order to convert the resulting image into a mesh. 
-    - Find a more robust approach to handing occlusion.
-    - Add documentation
+
+        - Replace the *rtree* and *djikstra* dependencies for more stable and mainstream alternatives.
+        - Implement the *remesh* method in order to convert the resulting image into a mesh. 
+        - Find a more robust approach to handing occlusion.
+        - Add documentation
 
 ## Author
 
